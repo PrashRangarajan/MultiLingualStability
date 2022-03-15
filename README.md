@@ -52,7 +52,7 @@ Note: The code has been updated to fix one or two typos/bugs from the original c
 25 Ayah from the Quran were translated into four different languages: English, Hindi, Bulgarian, and Arabic. The text files from the four languages  (arabic.txt, bulgarian.txt, english.txt and hindi.txt) were manually created and are included in the Quran folder. The code is also provided to calculate the stability.
 
 **Sample Output:**
-- On running the Regression features.ipynb, one should be able to get the stability buckets as follows:
+- On running the Regression features.ipynb, one should be able to get the stability as follows for the datasets:
 ![Stability](./stability.png)
 - After running the regression model, we should be able to obtain a collection of features and their weights:
 ![WALS Table](./WALS.png)
