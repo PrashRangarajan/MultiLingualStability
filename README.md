@@ -6,6 +6,15 @@ Code Reproduction by:
 
 ## Introduction
 This code is derived from the Gihub repository by the original authors:  https://github.com/laura-burdick/multilingual-stability/blob/master/README.md
+for the EMNLP paper "Analyzing the Surprising Variability in Word Embedding Stability Across Languages".
+```
+@inproceedings{Burdick21Analyzing,
+  author = {Burdick, Laura and Kummerfeld, Jonathan K. and Mihalcea, Rada},
+  title = {Analyzing the Surprising Variability in Word Embedding Stability Across Languages},
+  booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  year = {2021}
+}
+```
 
 ## Datasets to be downloaded
 - Bible Corpus: https://christos-c.com/bible/
@@ -32,6 +41,3 @@ This code is derived from the Gihub repository by the original authors:  https:/
 - Now, we can run the regression model using **regressionModel.py**. Make sure to set the variables at the top of the script.
 - **crossValidation.py** contains code to run leave-one-out cross-validation for ridge regression models with different regularization values. Make sure to set the variables at the top of the script.
 - A few data files are included that are referenced in the various scripts. **correlations.csv** contains Spearman's correlations between all the relevant WALS properties. It also includes a manual grouping of highly correlated properties. **multilingual_corpora.csv** contains a partial mapping between the Wikipedia language identifiers, the Bible language identifiers (ISO 639-3 Code), and the full name of the language. This was compiled manually.
-
-## Acknowledgements
-This material is based in part upon work supported by the National Science Foundation (grant #1815291) and by the John Templeton Foundation (grant #61156). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the National Science Foundation or John Templeton Foundation.
