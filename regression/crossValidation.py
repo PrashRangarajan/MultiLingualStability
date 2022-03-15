@@ -61,7 +61,8 @@ for regularization in [0.0001,0.001,0.01,0.1,1,10,100,1000]:
 	for test_language_index in range(len(languages)):
 		print(test_language_index,languages[test_language_index]) #language to leave out and test on
 			
-		model = ElasticNet(random_state=42,alpha=regularization) # Ridge regression model
+		model = ElasticNet(random_state=42,alpha=regularization) # Regression model
+		# model = Lasso(random_state=42,alpha=regularization) # Lasso model        
 
 		print('Fitting model...')
 		train_features = [all_features[i] for i in range(len(languages)) if i!=test_language_index]
