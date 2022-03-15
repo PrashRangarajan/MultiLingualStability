@@ -53,6 +53,6 @@ Note: The code has been updated to fix one or two typos/bugs from the original c
 
 **Sample Output:**
 - On running the Regression features.ipynb, one should be able to get the stability buckets as follows:
-![Stability](./Stability.png)
-- After running the regression model, we should be able to obtai a collection of features and their weights:
-! [WALS Table](./WALS.png)
+![Stability](./stability.png)
+- After running the regression model, we should be able to obtain a collection of features and their weights:
+![WALS Table](./WALS.png)
