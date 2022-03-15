@@ -20,6 +20,7 @@ for the EMNLP paper "Analyzing the Surprising Variability in Word Embedding Stab
 - Bible Corpus: https://christos-c.com/bible/
 - Wikipedia Corpus: https://sites.google.com/site/rmyeid/projects/polyglot?authuser=0
 - Quran corpus: https://quranenc.com/en/home
+- WALS: https://wals.info/
 
 ## Code Included
 **Complete Bibles.ipynb**: Contains code to figure out which Bible translations have 75% of the English KJV Bible.
