@@ -26,6 +26,7 @@ for the EMNLP paper "Analyzing the Surprising Variability in Word Embedding Stab
 - Dependencies: [Jupyter notebook](https://jupyter.org/), [tqdm](https://github.com/tqdm/tqdm)
 - To run this, you will need to download the Bible corpora and set the variables at the top of the notebook.
 - **all_bible_texts.txt** is also included as a helper file. This is a list of all the Bible translations.
+- **bible_preprocess.ipynb** -  (EXTRA) Helper file. If downloading the Bible corpus from the above source, we get .xml files for the languages. This will convert these files to the required .txt format.
 
 **stability/**: This folder contains code to calculate stability for both Wikipedia and the Bible corpora.
 - Dependencies: [gensim](https://radimrehurek.com/gensim/), [GloVe](https://nlp.stanford.edu/projects/glove/), [faiss](https://github.com/facebookresearch/faiss), [sklearn](https://scikit-learn.org/), [numpy](https://numpy.org/), [tqdm](https://github.com/tqdm/tqdm), [pandas](https://pandas.pydata.org/)
