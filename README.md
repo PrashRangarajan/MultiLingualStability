@@ -4,10 +4,13 @@ Code Reproduction by:
 - Prashant Rangarajan (NetID: prashr)
 - Neha Kardam (NetID: nehakrdm)
 
-Link:
 ## Introduction
 This code is derived from the Gihub repository by the original authors:  https://github.com/laura-burdick/multilingual-stability/blob/master/README.md
 
+## Datasets to be downloaded
+- Bible Corpus: https://christos-c.com/bible/
+- Wikipedia Corpus: https://sites.google.com/site/rmyeid/projects/polyglot?authuser=0
+- Quran corpus: https://quranenc.com/en/home
 
 ## Code Included
 **Complete Bibles.ipynb**: Contains code to figure out which Bible translations have 75% of the English KJV Bible.
