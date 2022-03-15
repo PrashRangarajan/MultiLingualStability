@@ -45,10 +45,9 @@ Note: The code has been updated to fix one or two typos/bugs from the original c
 - **Regression features.ipynb** - EXTRA: this notebook provides helper code to generate the set of top 10 most poisitve and negative features for a model trained using **regressionModel.py**.
 - **crossValidation.py** contains code to run leave-one-out cross-validation for ridge regression models with different regularization values. Make sure to set the variables at the top of the script. EXTRA: The code is modified to allow for other regression models such as Lasso to find the appropriate regularization values.
 - A few data files are included that are referenced in the various scripts. **correlations.csv** contains Spearman's correlations between all the relevant WALS properties. It also includes a manual grouping of highly correlated properties. **multilingual_corpora.csv** contains a partial mapping between the Wikipedia language identifiers, the Bible language identifiers (ISO 639-3 Code), and the full name of the language. This was compiled manually.
-
 - **wikipedia_dataset_split_5downsample.ipynb** shows how to divide the full text of four languages into five subsets. This python notebook also briefly mentions the tensor data source, from which the 40 wiki-languages can be obtained.
 
-**Quran**: 
+**Quran/**: 
 - This folder contains the dataset and code (**Quran_stability.ipynb**) to calculate the stability for Quran dataset.
 25 Ayah from the Quran were translated into four different languages: English, Hindi, Bulgarian, and Arabic. The text files from the four languages  (arabic.txt, bulgarian.txt, english.txt and hindi.txt) were manually created and are included in the Quran folder. The code is also provided to calculate the stability.
 
